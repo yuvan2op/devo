@@ -1,0 +1,8 @@
+sudo systemctl enable docker
+sudo systemctl start docker
+docker --version
+sudo docker build -t foodtestweb .
+sudo docker run -d -p 80:80 foodtestweb
+sudo docker ps
+curl http://localhost:80
+curl http://172.17.118.152
