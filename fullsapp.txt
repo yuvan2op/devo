@@ -1,0 +1,14 @@
+fullstack-app/
+├─ client/
+│   ├─ index.html
+│   ├─ vite.config.js
+│   ├─ package.json
+│   └─ src/
+│       ├─ main.jsx
+│       └─ App.jsx
+├─ server/
+│   ├─ src/server.js
+│   └─ package.json
+├─ Dockerfile
+├─ docker-compose.yml
+└─ .github/workflows/ci-fullstack.yml
