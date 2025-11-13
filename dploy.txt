@@ -1,0 +1,17 @@
+my-app/
+├─ .github/
+│  └─ workflows/
+│     └─ ci-deploy.yml
+├─ docker/
+│  └─ prod-nginx.conf
+├─ src/
+│  ├─ server.js           # for Node/Express server (optional)
+│  └─ client/             # frontend app (React/Vite) or static site
+│     ├─ index.html
+│     └─ main.js
+├─ .dockerignore
+├─ .gitignore
+├─ package.json
+├─ Dockerfile
+├─ README.md
+└─ nginx.conf (optional)
