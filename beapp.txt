@@ -1,0 +1,6 @@
+backend-app/
+├─ src/server.js
+├─ package.json
+├─ .gitignore
+├─ Dockerfile
+└─ .github/workflows/ci-backend.yml
