@@ -1,0 +1,9 @@
+frontend-app/
+├─ index.html
+├─ vite.config.js
+├─ package.json
+├─ .gitignore
+├─ src/
+│  ├─ main.jsx
+│  └─ App.jsx
+└─ .github/workflows/ci-frontend.yml
